@@ -22,7 +22,7 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 sudo apt-get update
 sudo apt-get install jenkins
 ```
-* Run the following commands individually, This will Jenkins user will be able to run docker jobs.
+* Run the following commands individually,This will  Grant Jenkins user and Ubuntu user permission to docker deamon.
 ```
 sudo su -
 ```
